@@ -1,0 +1,65 @@
+body,
+head,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  width: 100%;
+  height: 500px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+#inputWindow,
+#outputWindow {
+  display: flex;
+  border: 1px solid black;
+  flex: 1;
+}
+
+#inputWindow {
+  align-items: center;
+  justify-content: center;
+}
+
+#outputWindow {
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+#inputArea {
+  width: 95%;
+  height: 480px;
+  resize: none;
+  font-size: 20px;
+  font-family: 'Noto Sans KR';
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.h2 {
+  font-weight: bold;
+  font-size: 33px;
+}
+
+.h3 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.blue {
+  color: blue;
+}
